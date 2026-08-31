@@ -30,38 +30,41 @@ It provides full CRUD operations for warehouses, suppliers, products, employees,
 ---
 
 ## 📁 Project Structure
+
+```
 warehouse/
 ├── public/
-│ └── index.html
+│   └── index.html
 ├── src/
-│ ├── resources/ # React-Admin resource definitions
-│ │ ├── Customer.js
-│ │ ├── Employee.js
-│ │ ├── Inventory.js
-│ │ ├── InventoryTransaction.js
-│ │ ├── OrderLine.js
-│ │ ├── OrderP.js
-│ │ ├── Payment.js
-│ │ ├── Product.js
-│ │ ├── PurchaseOrder.js
-│ │ ├── ReturnP.js
-│ │ ├── Shipment.js
-│ │ ├── Supplier.js
-│ │ ├── Warehouse.js
-│ │ └── WarehouseLocation.js
-│ ├── App.js
-│ ├── authProvider.js
-│ ├── index.css
-│ ├── index.js
-│ ├── layout.js
-│ ├── supabaseClient.js
-│ └── theme.js
-├── .env # (not committed) Supabase credentials
+│   ├── resources/
+│   │   ├── Customer.js
+│   │   ├── Employee.js
+│   │   ├── Inventory.js
+│   │   ├── InventoryTransaction.js
+│   │   ├── OrderLine.js
+│   │   ├── OrderP.js
+│   │   ├── Payment.js
+│   │   ├── Product.js
+│   │   ├── PurchaseOrder.js
+│   │   ├── ReturnP.js
+│   │   ├── Shipment.js
+│   │   ├── Supplier.js
+│   │   ├── Warehouse.js
+│   │   └── WarehouseLocation.js
+│   ├── App.js
+│   ├── authProvider.js
+│   ├── index.css
+│   ├── index.js
+│   ├── layout.js
+│   ├── supabaseClient.js
+│   └── theme.js
+├── .env                          # (not committed) Supabase credentials
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
-├── sup.sql # Full database schema + RLS policies
+├── sup.sql                       # Full database schema + RLS policies
 └── README.md
+```
 
 text
 
